@@ -11,8 +11,10 @@ moneyBox(5);
 //==========================================================
 //se guarda el return para que guarde los valores anteriores
 const moneyBox = () =>{
+    debugger;
     var saveCoins = 0;
     const countCoins = (coins) =>{
+        debugger;
         saveCoins += coins;
         console.log(`MoneyBox: $${saveCoins}`);
     }
